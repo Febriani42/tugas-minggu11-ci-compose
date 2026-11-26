@@ -1,6 +1,6 @@
 services:
   db_mysql:
-    image: mysql:8.0
+   image: mysql:8.0
     volumes:
       - wp_data:/var/lib/mysql
     restart: unless-stopped
